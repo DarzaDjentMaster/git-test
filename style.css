@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,15 @@ body::-webkit-scrollbar {
   position: fixed;
   background: black;
   z-index: -2;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .first {
@@ -45,10 +56,9 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-  text-align: center;
-  transform: translateY(100%);
   color: white;
-  font-size: 15rem;
+  font-size: 10rem;
+  font-family: "Righteous", cursive;
 }
 /* .line {
   transform: translateY(50vh);

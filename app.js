@@ -17,7 +17,6 @@ window.addEventListener("scroll", () => {
   // let secondY = second.getBoundingClientRect();
   // console.log(secondY.top);
   line.style.width = `${scroll * 0.1}%`;
-
   first.style.transform = `scale(${1 - scroll / 1000})`;
   first.style.opacity = `${1 - scroll / 1000}`;
   if (scroll >= firstHeight) {
